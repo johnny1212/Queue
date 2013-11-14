@@ -8,7 +8,7 @@ import LinearniSeznam.LinearniSeznam;
  */
 public class Queue<T> {
 
-    private LinearniSeznam seznam = new LinearniSeznam();
+    private LinearniSeznam<T> seznam = new LinearniSeznam<T>();
     private int count = 0;
 
     public Queue() {
